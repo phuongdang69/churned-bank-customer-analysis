@@ -60,10 +60,10 @@ SELECT
 	AVG(EstimatedSalary) AS avg_estimatedsalary
 FROM bank_customer_data$;
 
-----How many accounts having zero in their balance?
+----How many accounts having zero in their balance that exited this bank?
 SELECT COUNT(CustomerId) AS zero_in_balance
 FROM bank_customer_data$
-WHERE Balance = 0;
+WHERE Balance = 0 AND Exited = 1;
 
 --How many accounts are using the credit card service?
 SELECT COUNT(CustomerId) AS with_cre_card
