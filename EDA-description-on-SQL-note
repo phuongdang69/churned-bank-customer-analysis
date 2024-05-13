@@ -1,0 +1,27 @@
+The data set contains 10,000 customers across 3 countries: France, Germany and Spain. By the number of customers, France has the largest customer base, then Germany, then Spain. 
+However by the number of churned customers, Germany has the highest churning rate, then France, then Spain. This indicates that Germany needs some extra analysis in either internal factor (i.e platform infrastructure issues, customer service, etc.) and external factor.
+By gender, there are more male than female customers, although the ratio is nearly equally distributed between the two (the male to female ratio is 55/45).
+By age group, the working age (25-54) is the main group of customer (80%), then mature working age (6%), then young adult (4%), then elderly (2%)., which makes sense as the working age group has the most purchase power with stable finance, therefore explains their need for banking service and products to facilitate their financial usage.
+The churn rate is 20.37% = 2037/10,000 customers have exited this bank's service.
+3617/10,000 customers have zero in their balance. This indicates some possible customer behaviour such as financial hardships, recent transactions, automated payments, financial planning, bank fees.
+Only 500 out of 3617 accounts with zero are actually inactive. 
+7055/10,000 customers are using the credit card service. 5151/10,000 customers are still active. 3607/7055 customers (36%) using credit card service that are still active.
+
+*Some basic statistics*
+* Min credit score: 350. Max credit score: 800. Average credit score: 630.5.
+* Min age: 18. Max age: 92. Average age: 38.9.
+* Min tenure: 0. Max tenure: 10. Average tenure: 5.
+* Min number of products: 1. Max number of products: 4. Average number of products: 2.5.
+* Average balance: 76,000. Average estimated salary: 100,000.
+
+*Within the churned customers group*
+* 1512/2037 churned customers are above average age, that is 74% of this churned customers group.
+* The mature working age group is the group with the most churned customers by percentage, takes up approximately 50%, then the working age, then the elderly.
+* By average balance, the elderly has the most in their accounts. However by average estimated salary, the young adult has the highest amount.
+* 30% of this churned group has the credit score below 600, 20% of this group has the credit score above 700, the rest (50%) are within the A-risk group 600-700.
+* 70% are with only one product, while the rest (30%) are with more than one product. 
+* 70% of them has a credit card.
+* 43% have been staying with the bank for more than 5 years.
+
+*Within  the staying customers group*
+All statistics of this gruop are almost the same as the churned customers group, however, it's certain that staying customers are most likely to be younger.
