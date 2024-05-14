@@ -45,7 +45,7 @@ This analysis can be dived more in-depth if we have qualitative data, this is al
 # What techniques?
 
 ## Data acquisition
-One public data source from Kaggle: <insert link to the data set here>
+[One public data source on Kaggle](https://www.kaggle.com/datasets/akelsayed/churn-bank-customers-ak)
 
 ## Data preparation
 Data transformation using SQL, then dropping column using R for only needed variables to predict the churn.
